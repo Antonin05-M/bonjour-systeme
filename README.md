@@ -55,11 +55,9 @@ Vous avez **deux possibilités**, choisissez celle qui vous convient.
 Ouvrez un terminal (PowerShell ou l'invite de commandes), placez-vous dans le dossier où vous voulez copier le projet, puis :
 
 ```powershell
-git clone https://github.com/VOTRE-PSEUDO/bonjour-systeme.git
+git clone https://github.com/Antonin05-M/bonjour-systeme.git
 cd bonjour-systeme
 ```
-
-> Remplacez `VOTRE-PSEUDO` par le nom du compte GitHub qui héberge ce dépôt.
 
 ---
 
