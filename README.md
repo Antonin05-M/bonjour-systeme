@@ -13,7 +13,45 @@
 ####   #####  #   #   ###   #####   ###   #   #
 ```
 
-Un petit script PowerShell qui affiche, dans votre terminal, un **brief système animé façon "docker deploy"** : bannière en dégradé bleu, effet machine à écrire, spinners, jauges animées… et surtout, des informations utiles sur votre machine.
+Un petit script PowerShell qui affiche, dans votre terminal, un **brief système animé **
+
+**Pour faire très vite, en 2 étapes rapides :**
+
+## Étape 1 : récupérer le projet
+
+ Télécharger en ZIP (le plus simple, aucun logiciel requis)
+
+1. Cliquez sur le bouton vert **`<> Code`** en haut à droite de cette page
+2. Choisissez **`Download ZIP`**
+3. Décompressez le fichier ZIP (clic droit → *Extraire tout…*)
+4. Vous obtenez un dossier `bonjour-systeme-main` contenant le script
+
+---
+## Étape 2 : lancer le script
+
+Ouvrez **PowerShell** :
+
+1. Cliquez sur le menu **Démarrer**
+2. Tapez `powershell`
+3. Cliquez sur **Windows PowerShell** (pas besoin de "exécuter en tant qu'administrateur")
+
+Déplacez-vous dans le dossier du projet, par exemple :
+
+```powershell
+cd C:\Chemin\Vers\bonjour-systeme
+```
+
+Puis lancez le script :
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\bonjour-systeme.ps1
+```
+
+C'est tout ! Regardez le terminal, c'est parti. 🎬
+
+---
+
+## -> PLus d'infos ?
 
 ## Ce que le script affiche
 
@@ -38,50 +76,6 @@ Le tout est **100 % local** : aucune donnée ne quitte votre machine, aucune con
 > **Vous ne savez pas ce qu'est PowerShell ?** C'est l'outil de ligne de commande installé d'office sur tous les Windows. Vous n'avez rien à installer, il est déjà sur votre machine.
 
 ---
-
-## Étape 1 : récupérer le projet
-
-Vous avez **deux possibilités**, choisissez celle qui vous convient.
-
-### Option A — Télécharger en ZIP (le plus simple, aucun logiciel requis)
-
-1. Cliquez sur le bouton vert **`<> Code`** en haut à droite de cette page
-2. Choisissez **`Download ZIP`**
-3. Décompressez le fichier ZIP (clic droit → *Extraire tout…*)
-4. Vous obtenez un dossier `bonjour-systeme-main` contenant le script
-
-### Option B — Cloner avec Git (si vous avez Git)
-
-Ouvrez un terminal (PowerShell ou l'invite de commandes), placez-vous dans le dossier où vous voulez copier le projet, puis :
-
-```powershell
-git clone https://github.com/Antonin05-M/bonjour-systeme.git
-cd bonjour-systeme
-```
-
----
-
-## Étape 2 : lancer le script
-
-Ouvrez **PowerShell** :
-
-1. Cliquez sur le menu **Démarrer**
-2. Tapez `powershell`
-3. Cliquez sur **Windows PowerShell** (pas besoin de "exécuter en tant qu'administrateur")
-
-Déplacez-vous dans le dossier du projet, par exemple :
-
-```powershell
-cd C:\Chemin\Vers\bonjour-systeme
-```
-
-Puis lancez le script :
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\bonjour-systeme.ps1
-```
-
-C'est tout ! Regardez le terminal, l'animation démarre. 🎬
 
 ### Bonus : mode rapide
 
@@ -136,7 +130,7 @@ Non, aucune. Toutes les informations affichées (RAM, disque, applications, IP�
 
 Il lit le compteur `UserAssist` de l'Explorateur Windows : c'est le compteur officiel que Windows utilise pour afficher vos applications "les plus utilisées" dans le menu Démarrer. Il ne s'agit pas d'un suivi caché du script, mais d'une donnée que Windows collecte déjà pour lui-même. Le script se contente de la lire.
 </details>
-
+ 
 ---
 
 ## Structure du projet
@@ -150,4 +144,4 @@ bonjour-systeme/
 
 ---
 
-*Fait avec ❤️ et beaucoup de jauges animées sous PowerShell.*
+*Fait avec ❤️*
