@@ -1,0 +1,33 @@
+# ============================================================
+# .gitignore — liste des fichiers que Git doit IGNORER
+# ------------------------------------------------------------
+# Tout fichier correspondant à une ligne ci-dessous sera
+# invisible pour Git : il ne sera ni ajouté, ni commité,
+# ni poussé sur GitHub. Pratique pour les fichiers :
+#   - personnels (config, mots de passe, clés API...)
+#   - générés automatiquement (journaux, fichiers temporaires)
+#   - propres à chaque machine (cache, fichiers système Windows)
+# ============================================================
+
+# --- Fichiers système Windows (junk créé par l'Explorateur) ---
+Thumbs.db          # miniatures d'images (créé automatiquement)
+ehThumbs.db
+Desktop.ini        # préférences d'affichage d'un dossier
+$RECYCLE.BIN/
+
+# --- macOS (au cas où un jour on ouvre le repo sur un Mac) ---
+.DS_Store
+
+# --- Dossiers des éditeurs de code (config personnelle) ---
+.vscode/           # Visual Studio Code
+.idea/             # JetBrains (PyCharm, IntelliJ...)
+
+# --- Fichiers temporaires et journaux ---
+*.log              # tout fichier se terminant par .log
+*.tmp
+~$*                # fichiers verrou Office (ex: ~$doc.docx ouvert)
+
+# --- Secrets / clés : à ne JAMAIS mettre sur GitHub ---
+*.pem
+*.key
+.env
