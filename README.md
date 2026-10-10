@@ -15,7 +15,7 @@
 
 Un petit script PowerShell qui affiche, dans votre terminal, un **brief système animé **
 
-**Pour faire très vite, en 2 étapes rapides :**
+**Pour faire vite, en 2 étapes rapides :**
 
 ## Étape 1 : récupérer le projet
 
@@ -33,12 +33,12 @@ Ouvrez **PowerShell** :
 
 1. Cliquez sur le menu **Démarrer**
 2. Tapez `powershell`
-3. Cliquez sur **Windows PowerShell** (pas besoin de "exécuter en tant qu'administrateur")
+3. Cliquez sur **Windows PowerShell**
 
-Déplacez-vous dans le dossier du projet, par exemple :
+Déplacez-vous dans le dossier du projet. Par exemple, si vous avez extrait le dossier dans "Téléchargements", copier la commande :
 
 ```powershell
-cd C:\Chemin\Vers\bonjour-systeme
+Set-Location "$HOME\Downloads"
 ```
 
 Puis lancez le script :
