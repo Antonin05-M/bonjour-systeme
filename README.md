@@ -13,9 +13,9 @@
 ####   #####  #   #   ###   #####   ###   #   #
 ```
 
-Un petit script PowerShell qui affiche, dans votre terminal, un **brief système animé **
+Un petit script PowerShell qui affiche, dans votre terminal, un **brief système animé**
 
-**Pour faire vite, en 2 étapes rapides :**
+## **Pour faire vite, en 2 étapes rapides :**
 
 ## Étape 1 : récupérer le projet
 
@@ -51,19 +51,8 @@ C'est tout ! Regardez le terminal, c'est parti. 🎬
 
 ---
 
-## -> PLus d'infos ?
+## -> Plus d'infos ?
 
-## Ce que le script affiche
-
-- Un message de bienvenue personnalisé avec votre **nom d'utilisateur**, la date et l'heure
-- Votre **version de Windows** (édition, version, build)
-- Le **top 12 des applications** les plus lancées depuis un mois
-- Un **point santé** de la machine : RAM, disque, CPU, batterie
-- En bonus : votre **adresse IP locale** et l'**uptime** de la machine
-
-Le tout est **100 % local** : aucune donnée ne quitte votre machine, aucune connexion réseau n'est nécessaire (hormis votre propre réseau local pour afficher l'IP).
-
----
 
 ## Prérequis
 
@@ -74,6 +63,18 @@ Le tout est **100 % local** : aucune donnée ne quitte votre machine, aucune con
 | Droits | Aucun. Le script fonctionne en utilisateur standard, sans administrateur |
 
 > **Vous ne savez pas ce qu'est PowerShell ?** C'est l'outil de ligne de commande installé d'office sur tous les Windows. Vous n'avez rien à installer, il est déjà sur votre machine.
+
+---
+
+## Ce que le script affiche
+
+- Un message de bienvenue personnalisé avec votre **nom d'utilisateur**, la date et l'heure
+- Votre **version de Windows** (édition, version, build)
+- Le **top 12 des applications** les plus lancées depuis un mois
+- Un **point santé** de la machine : RAM, disque, CPU, batterie
+- En bonus : votre **adresse IP locale** et l'**uptime** de la machine
+
+Le tout est **100 % local** : aucune donnée ne quitte votre machine, aucune connexion réseau n'est nécessaire (hormis votre propre réseau local pour afficher l'IP).
 
 ---
 
