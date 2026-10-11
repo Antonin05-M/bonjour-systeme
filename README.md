@@ -38,7 +38,7 @@ Ouvrez **PowerShell** :
 Déplacez-vous dans le dossier du projet. Par exemple, si vous avez extrait le dossier dans "Téléchargements", copier la commande :
 
 ```powershell
-Set-Location "$HOME\Downloads"
+Set-Location "$HOME\Downloads\bonjour-systeme-main\bonjour-systeme-main"
 ```
 
 Puis lancez le script :
